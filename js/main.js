@@ -1,16 +1,12 @@
 
 /* global createCanvas, resizeCanvas */
 let shark;
-function preload () {
-  window.setupMenuLogic()
-  shark = loadImage('/images/pinkshark.png')
-/* global createCanvas, resizeCanvas, preload, mouseIsPressed, let, createImage, loadImage, mouseX, mouseY */
 let toad;
 
 function preload () {
   window.setupMenuLogic()
+  shark = loadImage('/images/pinkshark.png')
   toad = loadImage('js/imgs/toad.png');
-  // }
 }
 
 function setup () {
